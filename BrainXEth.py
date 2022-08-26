@@ -38,7 +38,7 @@ def xBal(address):
 
 mylist = []
 
-with open('words.txt', newline='', encoding='utf-8') as f:
+with open('AlphaWords.txt', newline='', encoding='utf-8') as f:
     for line in f:
         mylist.append(line.strip())
 
